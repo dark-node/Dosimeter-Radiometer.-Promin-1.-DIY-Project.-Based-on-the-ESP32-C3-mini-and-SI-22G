@@ -1,0 +1,30 @@
+# ── ESP-IDF / build artifacts ─────────────────────────────
+firmware/build/
+build/
+*.bin
+*.elf
+*.map
+
+# ESP-IDF generated configs (keep sdkconfig.defaults if present)
+firmware/sdkconfig.old
+sdkconfig.old
+*.old
+
+# ── Editor / IDE ──────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── OS junk ───────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ── Blender backups ───────────────────────────────────────
+*.blend1
+*.blend2
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.pyc
